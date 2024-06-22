@@ -74,8 +74,8 @@ os.environ["SERPER_API_KEY"] = "Your Key" # serper.dev API key
 # It can be a local model through Ollama / LM Studio or a remote
 # model like OpenAI, Mistral, Antrophic or others (https://docs.crewai.com/how-to/LLM-Connections/)
 #
-# import os
-# os.environ['OPENAI_MODEL_NAME'] = 'gpt-3.5-turbo'
+import os
+os.environ['OPENAI_MODEL_NAME'] = 'gpt-3.5-turbo'
 #
 # OR
 #
